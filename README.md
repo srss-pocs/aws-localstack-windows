@@ -9,3 +9,7 @@
 curl http://localhost:4566/health
 
 ![image](https://github.com/srss-pocs/aws-localstack-windows/assets/145287517/f94a394d-ce00-4a60-ae89-19da7063c426)
+
+
+> awslocal --endpoint-url=http://localhost:4566 s3 mb s3://my-test-bucket make_bucket: my-test-bucket
+> awslocal s3api list-buckets --region us-east-1
