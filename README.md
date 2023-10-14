@@ -1,6 +1,6 @@
 # aws-localstack-windows
 
-1. Start Docker Desktop on Windows
+1. Install and Start Docker Desktop on Windows
 2. docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 3. Open Windows Powershell
 4. Run pip install awscli-local
